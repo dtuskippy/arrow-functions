@@ -182,8 +182,8 @@ joe.scopeArrow();
 
 // TODO: Write a COMMENT below to answer the following questions.
 // 1. What is "this" when joe.scope() is invoked?
-//
+//'this' is the new instance created by the constructor.
 // 2. What is "this" when joe.scopeArrow() is invoked?
-//
+//With arrow functions, the method is essentially created on the window (global) scope, and it will assume this is the window.
 // 3. Explain why "this" is different when an arrow function is used.
-//
+// Arrow functions don't rebind the value of this when an arrow function is used inside of another function.
